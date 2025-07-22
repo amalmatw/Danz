@@ -30,6 +30,7 @@ public class Loginpage {
 	
 	public void logoverification() throws Exception
 	{
+		System.out.println("Hello");
 		Thread.sleep(6000);
 		boolean act=d.findElement(log).isDisplayed();
 		Assert.assertEquals(act, true);
